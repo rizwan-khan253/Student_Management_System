@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Students Record</title>
+    <link rel="stylesheet" href="SeeAllRecord.Css">
+</head>
+<body>
+    <div class="container">
+        <h1>All Students Record</h1>
+
+        <div class="search-area">
+            <input type="text" placeholder="Search by name or roll no..." class="searchInput">
+            <button class="search-btn">Search</button>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Father Name</th>
+                    <th>Roll No</th>
+                    <th>Class</th>
+                    <th>Email</th>
+                    <th>Subject</th>
+                    <th>Gender</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody id="allData"></tbody>
+        </table>
+        <p class="msg"></p>
+    </div>
+    <script src="SeeAllRecord.js"></script>
+</body>
+</html>

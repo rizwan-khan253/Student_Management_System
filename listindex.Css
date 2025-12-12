@@ -1,0 +1,83 @@
+ body { 
+   margin-left: 500px;
+   margin-top: 30px; 
+   
+ } 
+
+.container {
+    background: darkgray;
+    padding: 30px;
+    width: 320px;
+    height: 400px;
+    text-align: right;
+    border-radius: 25px;
+    box-shadow: 0 5px 20px darkslategray;
+    margin-right: 10px;
+}
+
+h1{
+    margin-bottom: 25px;
+    color: solid black ;
+    box-shadow:gray;
+}
+
+.btn-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.btn {
+    background: dimgray;
+    color: black;
+    padding: 14px 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    display: block;
+}
+
+.btn:hover {
+    background: black;
+    transform: translateY(-3px);
+    color: white;
+}
+
+.ConatinerFirst
+{
+
+
+    background-image: url('pic3.jpg');
+    background-size: cover;       
+    background-repeat: no-repeat; 
+    background-position: center;  
+}
+
+
+.StH1{
+
+    text-align: center;
+    background-color: solid black;
+}
+.Tablemain 
+{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: darkcyan;
+    border: solid white;
+    gap: 50px;
+    height: 700px;
+    width: 600px;
+    justify-content: right;
+
+  
+    margin-left: auto;
+    margin-right: 0; 
+
+    /* 2ndforam new addmison */
+
+}

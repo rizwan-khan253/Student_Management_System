@@ -1,0 +1,56 @@
+header {
+  background: #2b4eff;
+  padding: 20px;
+  color: white;
+  font-size: 26px;
+  text-align: center;
+  font-weight: bold;
+}
+.container {
+  display: flex;
+  gap: 20px;
+  margin: 20px;
+}
+.classList {
+  width: 25%;
+}
+
+.classItem {
+  background: #f4f4f4;
+  padding: 12px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.classItem:hover {
+  background: #dcdcdc;
+}
+.content {
+  width: 75%;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.section {
+  display: none;
+  margin-top: 20px;
+}
+.book {
+  padding: 15px;
+  background: #f0f0ff;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  margin: 10px 0;
+  font-size: 18px;
+  transition: 0.3s;
+}
+.book:hover {
+  transform: scale(1.05);
+  background:  bold black;
+  color: dimgray;
+  border-color: black;
+}
